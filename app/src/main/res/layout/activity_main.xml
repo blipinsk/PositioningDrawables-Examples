@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bartoszlipinski.positioning_drawables.MainActivity">
+
+    <com.bartoszlipinski.positioning_drawables.RulersView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/size_xs"
+            android:paddingTop="@dimen/size_xs">
+
+            <TextView
+                style="@style/TextView.NavigationDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_l"
+                android:drawableLeft="@drawable/icon_24dp_width"
+                android:drawablePadding="@dimen/size_m"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="@dimen/size_s"
+                android:text="24dp wide icon (just a TextView)"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_l"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/keyline"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="@dimen/size_s"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/icon_unknown_width"/>
+
+                <TextView
+                    style="@style/TextView.NavigationDrawer"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|left"
+                    android:text="Unknown width icon (TextView + ImageView)"/>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextView.NavigationDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_l"
+                android:drawableLeft="@drawable/dont_use_this_1"
+                android:gravity="center_vertical|left"
+                android:text="Layer-List 1: (Don't use this one!)"/>
+
+            <TextView
+                style="@style/TextView.NavigationDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_l"
+                android:drawableLeft="@drawable/dont_use_this_2"
+                android:gravity="center_vertical|left"
+                android:text="Layer-List 2: (Don't use this one!)"/>
+
+            <TextView
+                style="@style/TextView.NavigationDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_l"
+                android:drawableLeft="@drawable/dont_use_this_3"
+                android:gravity="center_vertical|left"
+                android:text="Layer-List 3: (Don't use this one!)"/>
+
+            <TextView
+                style="@style/TextView.NavigationDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_l"
+                android:drawableLeft="@drawable/dont_use_this_4"
+                android:gravity="center_vertical|left"
+                android:text="Layer-List 4: (Don't use this one!)"/>
+
+            <TextView
+                style="@style/TextView.NavigationDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_l"
+                android:drawableLeft="@drawable/dont_use_this_5"
+                android:gravity="center_vertical|left"
+                android:text="Layer-List 5: (Don't use this one!)"/>
+
+            <TextView
+                style="@style/TextView.NavigationDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_l"
+                android:drawableLeft="@drawable/use_this_one"
+                android:gravity="center_vertical|left"
+                android:text="Use this one!"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+

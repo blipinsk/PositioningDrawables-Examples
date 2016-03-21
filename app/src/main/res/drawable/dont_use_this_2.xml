@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="56dp"
+          android:left="16dp">
+        <bitmap android:gravity="center_vertical|left"
+                android:src="@drawable/icon_unknown_width"/>
+    </item>
+</layer-list>

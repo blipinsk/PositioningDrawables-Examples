@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="size_xs">8dp</dimen>
+    <dimen name="size_s">16dp</dimen>
+    <dimen name="size_m">32dp</dimen>
+    <dimen name="size_l">48dp</dimen>
+    <dimen name="keyline">72dp</dimen>
+    <dimen name="ruler_weight">2dp</dimen>
+</resources>
