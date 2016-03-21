@@ -2,7 +2,7 @@
 
 A small repositiory containing examples for a Medium post:
 
-Simplifying layouts with layer-list drawables: a reliable way to position drawables within a layer-lists.
+[Simplifying layouts with layer-list drawables: a reliable way to position drawables within a layer-lists.](https://medium.com/@blipinsk/simplifying-layouts-with-layer-list-drawables-2f750ea1504e#.8v3e0lfxl)
 
 Developed by
 ============
